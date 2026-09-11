@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="exTitle exDesc">
+  <title id="exTitle">cc-statusline running example</title>
+  <desc id="exDesc">A dark terminal panel showing the four statusline rows: session name "cc-statusline"; the path '/Users/wmy/cc-statusline', branch [main] and remote gh:wmy2981/cc-statusline; a 38% context window bar followed by the model deepseek-flash, the label (offpeak) and the balance ¥91.78; and a diff line reading +218 -47.</desc>
+
+  <rect width="1200" height="350" rx="24" fill="#080A0E"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="348.5" rx="23.25" fill="none" stroke="#1C2430" stroke-width="1.5"/>
+
+  <rect x="48" y="48" width="1104" height="248" rx="14" fill="#0D1117" stroke="#262D3A" stroke-width="1.5"/>
+
+  <!-- window chrome -->
+  <rect x="48" y="48" width="1104" height="38" rx="14" fill="#161B22"/>
+  <rect x="48" y="68" width="1104" height="18" fill="#161B22"/>
+  <line x1="48" y1="86" x2="1152" y2="86" stroke="#262D3A" stroke-width="1"/>
+  <circle cx="76" cy="67" r="5.5" fill="#3A4453"/>
+  <circle cx="96" cy="67" r="5.5" fill="#3A4453"/>
+  <circle cx="116" cy="67" r="5.5" fill="#3A4453"/>
+  <text x="142" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#6E7681">Claude Code</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="24" xml:space="preserve">
+    <!-- line 1: session name -->
+    <text x="88" y="130" font-weight="700" fill="#8B949E">cc-statusline</text>
+
+    <!-- line 2: path, branch, remote repo -->
+    <text x="88" y="174"><tspan fill="#22D3EE">'/Users/wmy/cc-statusline'</tspan>  <tspan fill="#7AA2F7">[main]</tspan>  <tspan fill="#FFAF00">gh:wmy2981/cc-statusline</tspan></text>
+
+    <!-- line 3: context bar, model, DeepSeek extras -->
+    <text x="88" y="218"><tspan fill="#3FB950">[████████░░░░░░░░░░░░] 38%</tspan>  <tspan fill="#C678DD">deepseek-flash</tspan> <tspan fill="#8B949E">(offpeak)</tspan> <tspan fill="#FFFFFF">¥91.78</tspan></text>
+
+    <!-- line 4: code changes -->
+    <text x="88" y="262"><tspan fill="#8B949E">diff:</tspan>  <tspan fill="#5FD700">+218</tspan>  <tspan fill="#D70000">-47</tspan></text>
+  </g>
+</svg>

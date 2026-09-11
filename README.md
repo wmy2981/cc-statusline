@@ -4,6 +4,12 @@ Custom multi-line statusline for Claude Code, following the official [statusline
 
 Requires Python 3.9+ (standard library only, no third-party dependencies).
 
+## Preview
+
+<p align="center">
+  <img src="assets/readme/preview.svg" width="100%" alt="Four statusline rows: session name cc-statusline; the path '/Users/wmy/cc-statusline' with branch [main] and remote gh:wmy2981/cc-statusline; a 38% context window bar followed by deepseek-flash (offpeak) and the balance ¥91.78; and a diff line reading +218 -47">
+</p>
+
 ## How to Use
 
 Edit `~/.claude/settings.json`:
